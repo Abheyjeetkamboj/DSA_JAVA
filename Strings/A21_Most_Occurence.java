@@ -11,15 +11,15 @@ public class A21_Most_Occurence {
             arr[ans]++;
         }
         int min = -1;
-        char answ = 'a';
+        char out = 'a';
         for(int i = 0;i<26;i++){
             if(min<arr[i]){
                 min = arr[i];
-                answ = (char) (i + 'a');
+                out = (char) (i + 'a');
 
             }
         }
-        System.out.print(answ+" ");
+        System.out.print(out+" ");
         System.out.print(min);
     }
 }
