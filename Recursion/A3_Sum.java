@@ -8,8 +8,9 @@ public class A3_Sum {
         return x+sum(x-1);
     }
     public static void main(String[] args) {
-        Scanner sr = new Scanner(System.in);
-        int n = sr.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         System.out.println(sum(n));
+
     }
 }
